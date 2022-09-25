@@ -494,13 +494,13 @@ img {
 /* портфоліо */
 
 /* фільтр */
-.list.filters {
+/*.list.filters {
   display: flex;
   gap: 8px;
   justify-content: center;
   margin-bottom: 50px;
 }
-/*
+
 .btn {
   display: inline-block;
   padding: 6px 22px;

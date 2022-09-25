@@ -1,7 +1,12 @@
 .gallery {
   @extend %section;
 }
-
+.list.filters {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
 .projects {
   display: flex;
   flex-wrap: wrap;
