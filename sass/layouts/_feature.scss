@@ -1,6 +1,8 @@
 .feature {
-  @extend %section;
+  display: flex;
+  gap: 30px;
 }
+
 .feature__wrap {
   height: 120px;
   margin-bottom: 30px;

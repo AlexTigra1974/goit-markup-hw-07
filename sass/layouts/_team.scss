@@ -1,6 +1,9 @@
-.team {
-  @extend %section;
+.section--other-background {
   background-color: var(--section-bc-cl);
+}
+.team {
+  display: flex;
+  gap: 30px;
 }
 
 .team__item {
@@ -14,7 +17,7 @@
   padding: 30px 10px;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -22,7 +25,7 @@
   text-align: center;
 }
 
-.team__position {
+.team__desc {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: calc(19 / 16);

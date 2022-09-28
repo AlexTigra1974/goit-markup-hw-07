@@ -1,5 +1,9 @@
 .benefits {
-  @extend %section;
+  display: flex;
+  gap: 30px;
+}
+
+.section--no-padding-top {
   padding-top: 0;
 }
 .benefits__item {
